@@ -17,6 +17,6 @@ public class ProductMapper {
     }
 
     public Product toEntity(ProductDTO dto) {
-        return new Product(dto.getId(), dto.getName(), dto.getPrice(), dto.getRating());
+        return new Product(dto.getName(), dto.getPrice(), dto.getRating());
     }
 }
