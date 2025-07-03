@@ -1,5 +1,6 @@
 package e_commerce.e.commerce.product.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -10,9 +11,13 @@ import java.util.UUID;
 @Table
 public class Product {
     @Id
+    @Column(name = "product_id")
     private UUID id;
+    @Column(name = "product_name")
     private String name;
+    @Column(name = "product_price")
     private Integer price;
+    @Column(name = "product_rating")
     private Integer rating;
 
     public Product() {

@@ -3,7 +3,6 @@ package e_commerce.e.commerce.product.services;
 import e_commerce.e.commerce.product.dto.ProductDTO;
 import e_commerce.e.commerce.product.interfaces.CreateServiceInterface;
 import e_commerce.e.commerce.product.mapper.ProductMapper;
-import e_commerce.e.commerce.product.model.Product;
 import e_commerce.e.commerce.product.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
